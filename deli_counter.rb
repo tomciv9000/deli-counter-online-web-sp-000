@@ -4,7 +4,8 @@ def line(deli_line)
     puts "The line is currently empty."
   else
     line = []
-    deli_line.each_with_index do {name, index}
+    deli_line.each_with_index do |name, index|
+      
     
   end
 end

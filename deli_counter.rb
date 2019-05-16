@@ -7,8 +7,9 @@ def line(deli_line)
     deli_line.each_with_index do |name, index|
       line.push ("#{index + 1}. #{name}")
     end
+    puts line.join(", ")
   end
-  puts line.join(", ")
+  
 end
 
 def take_a_number(deli_line, customerName)

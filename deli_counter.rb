@@ -15,15 +15,11 @@ def now_serving(deli_line)
   if deli_line == 0 
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{deli_line.shift"
+    puts "Currently serving #{deli_line.shift}."
+  end
+end
 # Write your code here.
 
-function nowServing (katzDeliLine){
-  if (katzDeliLine.length === 0){
-    return ("There is nobody waiting to be served!")
-  } else {
-    return (`Currently serving ${katzDeliLine.shift()}.`)}
-}
 function currentLine(katzDeliLine){
   var custNumber = []
   if (katzDeliLine.length === 0){

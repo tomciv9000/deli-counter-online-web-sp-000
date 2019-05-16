@@ -11,14 +11,12 @@ def take_a_number(deli_line, customerName)
   puts "Welcome #{customerName}. You are number #{deli_line.length} in line."
 end
 
+def now_serving(deli_line)
+  if deli_line == 0 
+    puts "There is nobody waiting to be served!"
+  else
 # Write your code here.
 
-
-
-function takeANumber (theLine, customerName){
-  theLine.push(customerName);
-  return (`Welcome, ${customerName}. You are number ${theLine.length} in line.`)
-}
 function nowServing (katzDeliLine){
   if (katzDeliLine.length === 0){
     return ("There is nobody waiting to be served!")

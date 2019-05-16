@@ -5,7 +5,7 @@ def line(deli_line)
   else
     line = []
     deli_line.each_with_index do |name, index|
-      line << 
+      line.push ("#{index + 1}. #{name}")
     
   end
 end

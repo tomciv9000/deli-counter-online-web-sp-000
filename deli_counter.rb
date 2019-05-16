@@ -8,7 +8,7 @@ def line(deli_line)
       line.push ("#{index + 1}. #{name}")
     end
   end
-  puts line.join
+  puts line.join(", ")
 end
 
 function currentLine(katzDeliLine){

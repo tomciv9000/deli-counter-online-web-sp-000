@@ -11,20 +11,6 @@ def line(deli_line)
   puts line.join(", ")
 end
 
-function currentLine(katzDeliLine){
-  var custNumber = []
-  if (katzDeliLine.length === 0){
-    return "The line is currently empty."
-  } else {
-    for (var i=0; i < katzDeliLine.length; i++){
-      custNumber.push(` ${i+1}. ${katzDeliLine[i]}`)
-    }
-  return (`The line is currently:${custNumber}`)
-  }
-}
-
-###
-
 def take_a_number(deli_line, customerName)
   deli_line << customerName
   puts "Welcome #{customerName}. You are number #{deli_line.length} in line."

@@ -3,8 +3,8 @@ def line(deli_line)
   if deli_line.length == 0 
     puts "The line is currently empty."
   else
-    deli_line.each do |customer|
-      custNumber << ""
+    line = []
+    deli_line.each_with_index
     
   end
 end

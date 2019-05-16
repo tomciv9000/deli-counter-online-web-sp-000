@@ -1,10 +1,27 @@
 def line(deli_line)
+  custNumber = []
   if deli_line.length == 0 
     puts "The line is currently empty."
   else
-    deli_line
+    i = 0
+    while i < deli_line.length
+    
   end
 end
+
+function currentLine(katzDeliLine){
+  var custNumber = []
+  if (katzDeliLine.length === 0){
+    return "The line is currently empty."
+  } else {
+    for (var i=0; i < katzDeliLine.length; i++){
+      custNumber.push(` ${i+1}. ${katzDeliLine[i]}`)
+    }
+  return (`The line is currently:${custNumber}`)
+  }
+}
+
+###
 
 def take_a_number(deli_line, customerName)
   deli_line << customerName
@@ -20,14 +37,3 @@ def now_serving(deli_line)
 end
 # Write your code here.
 
-function currentLine(katzDeliLine){
-  var custNumber = []
-  if (katzDeliLine.length === 0){
-    return "The line is currently empty."
-  } else {
-    for (var i=0; i < katzDeliLine.length; i++){
-      custNumber.push(` ${i+1}. ${katzDeliLine[i]}`)
-    }
-  return (`The line is currently:${custNumber}`)
-  }
-}

@@ -3,8 +3,7 @@ def line(deli_line)
   if deli_line.length == 0 
     puts "The line is currently empty."
   else
-    i = 0
-    while i < deli_line.length
+    deli_line.each
     
   end
 end
